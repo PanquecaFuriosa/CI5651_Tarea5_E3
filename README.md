@@ -7,9 +7,9 @@ Considere un modificación del clásico juego de la vieja, en donde:
 • Gana aquel jugador que logre formar tres + en una misma fila, columna o diagonal.
 Por ejemplo, la siguiente es una configuración ganadora (donde la última jugada fue de |):
 
-+ + +
-| – +
-–   |
+>+ + +
+>| – +
+>–   |
 
 Diga si hay una estrategia ganadora para alguno de los jugadores involucrados.
 Para resolver este problema, utilice el método minmax.
