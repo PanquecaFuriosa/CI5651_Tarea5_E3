@@ -1,15 +1,16 @@
-Código del ejercicio 3 de la tarea 5 de la materia CI5651 - Diseño de algoritmos I
+# Tic-Tac-Toe with Minmax
 
-Considere un modificación del clásico juego de la vieja, en donde:
-• El primer jugador juega con – y el segundo juega con |.
-• Cada casilla puede tener alguno de estos símbolos, ninguno o ambos (en cuyo caso se forma un +).
-• En cada turno, el jugador no puede jugar en la misma casilla que el jugador anterior.
-• Gana aquel jugador que logre formar tres + en una misma fila, columna o diagonal.
-Por ejemplo, la siguiente es una configuración ganadora (donde la última jugada fue de |):
-
+## Problem:
+Consider a modification of the classic old game, where:
+- The first player plays with – and the second plays with |.
+- Each box can have one of these symbols, none or both (in which case it forms a +).
+- On each turn, the player cannot play on the same square as the previous player.
+- The player who manages to form three + in the same row, column or diagonal wins.<br>
+  
+For example, the following is a winning setup (where the last move was |):<br>
 "+ + +"
 "| – +"
 "–   |"
 
-Diga si hay una estrategia ganadora para alguno de los jugadores involucrados.
-Para resolver este problema, utilice el método minmax.
+Say if there is a winning strategy for any of the players involved.
+To solve this problem, use the minmax method.
